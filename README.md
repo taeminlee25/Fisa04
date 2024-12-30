@@ -39,6 +39,9 @@ __진하게__
 한줄 코드는 `print('hello world')` 입니다.
 
 ```python
+
+name = "김현지"
+```
  add new line
  add third line
  add fourth line
