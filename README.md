@@ -6,6 +6,10 @@
  ##### 다섯번째 제목
  ###### 여섯번째 제목
  일반 글자
+ ---
+ <hr>
+ 수평선
+ 
  add new line
  add third line
  add fourth line
