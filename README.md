@@ -46,10 +46,16 @@ name = "김현지"
 |이태민| 남성 |
 
 [화면에 출력될 문자](링크)
+
 [네이버](www.naver.com)
- add new line
- add third line
- add fourth line
- add fifth line
+
+![링크가 깨졌을 때 나올 이미지](https://i.imgur.com/OAUfY6u.jpeg)
+add new line
+
+add third line
+
+add fourth line
+
+add fifth line
 
  여섯번째 줄
