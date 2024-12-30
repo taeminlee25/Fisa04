@@ -39,9 +39,14 @@ __진하게__
 한줄 코드는 `print('hello world')` 입니다.
 
 ```python
-
 name = "김현지"
 ```
+| 이름 | 성별 |
+|------|------|
+|이태민| 남성 |
+
+[화면에 출력될 문자](링크)
+[네이버](www.naver.com)
  add new line
  add third line
  add fourth line
