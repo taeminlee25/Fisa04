@@ -1,30 +1,32 @@
 # 네줄리뷰(Four Lines Review)
-**2024.12.31**
+**2024.12.31** 
 
-# Fact(오늘 무엇을 하였나요?)
+## Fact(오늘 무엇을 하였나요?)
 - 오늘은 파이썬 기초를 한 바꾸 돌았습니다.
 - 실습은 코랩에서 진행했어요.
 - 자료형과, 자료구조를 배웠어요.
 
-# Discovery(뭐를 알아냈을까요?)
+## Discovery(뭐를 알아냈을까요?)
 - 파이썬에서는 숫자 자료형을 float(부동소수점) 하나만 제공함을 알았어요.
 - 더욱 정확한 십진수 기반의 연산을 하고 싶다면 **decimal** 모듈을 사용한다고 하네요~
-- 단락평가를 한다는 걸 알아냈어요.
+- <mark>단락평가</mark>를 한다는 걸 알아냈어요.
 - 딕셔너리는 해시 구조라는 걸 알아냈어요.
 - 파이썬은 기본적으로 얕은 복사를 한다고 합니다.
 - 깊은 복사를 하려면 copy 모듈을 사용해야 합니다.
 
-# Lesson Learned(뭐를 배웠을까요?)
+## Lesson Learned(뭐를 배웠을까요?)
 - 깊은 복사는 copy() 메서드로 하면 되는 줄 알았지만 완전 깊은 복사가 아니였어요.
-- copy() 메서드로 복사를 하는 경우에도 깊은 Depth 는 같은 메모리 주소를 사용하고 있더라구요.
+- copy() 메서드로 복사를 하는 경우에도 깊은 차원은 여전히 동일한 메모리 주소를 사용하고 있더라구요.
 - 해결법은 copy 모듈을 임포트해서 복사하는 겁니다.
-~~~python
-import copy
-arr = [1, [10, 20, 30], 3]
-arr_copy = copy.deepcopy(arr)
-arr_copy[1][1] = 50
-print(arr, arr_copy)
-~~~
+    ~~~python
+    import copy
+    arr = [1, [10, 20, 30], 3]
+    arr_justcopy = arr # 아~ 너무 얕습니다.
+    arr_shallowcopy = arr.copy() # 아까보다는 좀 덜 얕네요.
+    arr_deepcopy = copy.deepcopy(arr) # 깊어요.
+    arr_deepcopy[1][1] = 50
+    print(arr, arr_deepcopy)
+    ~~~
 
-# Declaration(알게된 걸로 뭐를 하고 싶은가요?)
+## Declaration(알게된 걸로 뭐를 하고 싶은가요?)
 - 물리나 화학식과 같은 세밀한 연산을 할 경우에는 소수점 아래 숫자의 정확한 연산을 위해 앞으로 **decimal** 모듈을 사용할 거에요!
