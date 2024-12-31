@@ -18,7 +18,7 @@ ___
 - 깊은 복사는 copy() 메서드로 하면 되는 줄 알았지만 완전 깊은 복사가 아니였어요.
 - copy() 메서드로 복사를 하는 경우에도 깊은 Depth 는 같은 메모리 주소를 사용하고 있더라구요.
 - 해결법은 copy 모듈을 임포트해서 복사하는 겁니다.
-'''python
+- '''python
 import copy
 arr = [1, [10, 20, 30], 3]
 arr_copy = copy.deepcopy(arr)
