@@ -22,7 +22,7 @@
     import copy
     arr = [1, [10, 20, 30], 3]
     arr_justcopy = arr # 아~ 너무 얕습니다.
-    arr_shallowcopy = arr.copy() # 아까보다는 좀 덜 얕네요.
+    arr_shallowcopy = arr.copy() # 이것도 얕아요.
     arr_deepcopy = copy.deepcopy(arr) # 깊어요.
     arr_deepcopy[1][1] = 50
     print(arr, arr_deepcopy)
