@@ -12,7 +12,7 @@
 - 사실 지금도 모릅니다.
 
 <figure style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/9d435e3b-6102-46be-906a-14067737faa7" alt="곰돌이 푸 까막눈 짤" width="180">
+    <img src="https://github.com/user-attachments/assets/9d435e3b-6102-46be-906a-14067737faa7" alt="푸 까막눈 짤" width="180">
     <img src="https://github.com/user-attachments/assets/0878044a-0550-4c3c-bc88-a1b1c926ee07" alt="침착맨 샷건 짤" width = "213">
 </figure>
 
@@ -26,17 +26,17 @@
 - 그 이유는 바로바로 :bomb:파괴적인 함수:boom:를 만들어 왔던 것 입니다!
 - 이름만 들어도 어마무시 하죠?
 - **파괴적인 함수**란 함수가 원래 의도된 데이터나 상태를 **불필요하게 변경**하거나 **삭제**하는 경우를 가리킵니다.
->
- ~~~ python 
- # 상태변경
- def add_element_to_list(lst, element):
-    lst.append(element)
- ''' 
- 함수가 리스트 lst를 직접 수정하므로 lst가 참조되는
- 다른 부분에 영향을 미칩니다.
- '''
- # 즉 lst 객체 자체가 변경되는 파괴적인 행동입니다(나빠요!).
- ~~~
+    >
+    ~~~ python 
+    # 상태변경
+    def add_element_to_list(lst, element):
+        lst.append(element)
+    ''' 
+    함수가 리스트 lst를 직접 수정하므로 lst가 참조되는
+    다른 부분에 영향을 미칩니다.
+    '''
+    # 즉 lst 객체 자체가 변경되는 파괴적인 행동입니다(나빠요!).
+    ~~~
 
 ## Declaration<br>(알게된 걸로 뭐를 하고 싶은가요?)</br>
 - 앞으로 함수 작성 시 잘 살펴봐야겠습니다.
