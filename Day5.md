@@ -56,7 +56,8 @@ print(factorial_iterative(5))
 - <u>람다 함수</u>도 배웠습니다(filter, map, reduce와 함께 한다면 시너지 백만배!)
 - 람다 함수는 **def**로 함수를 만들지 않아도 될 만큼 로직이 간단할 때 사용하면 좋습니다!
 - 함수명을 고민하지 않아도 되고 무엇보다 한 줄로 함수를 작성한다니 **간.지.작.살** 입니다.
-<figure style='text-align: center;'>
+
+<figure style="text-align: center;">
     <img src = 'https://github.com/user-attachments/assets/b686c822-6cb9-47ea-a1a8-12e673024d93' alt='멋져' width='300'>
 </figure>
 
