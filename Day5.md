@@ -12,7 +12,7 @@
 > <u>Recursion</u>
 > Python also accepts function recursion, which means a defined function can call itself.
  - 그렇다면! 왜 for나 while과 같은 반복문 대신에 재귀함수를 사용하는 걸까요?
- - 레딧에서는 **수학적으로 엘레강스~** 해서 멋있기 때문이라고 합니다(코딩도 중세 귀족처럼 우아하게 해야합니다).
+ - 레딧에서는 **수학적으로 엘레강스~** 해서 멋있기 때문이라고 합니다(코딩도 중세 귀족처럼 우아하게).
 
 <figure style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/52edb736-2c3b-440a-9148-d9dc6745305e" alt="레딧 코멘트">
