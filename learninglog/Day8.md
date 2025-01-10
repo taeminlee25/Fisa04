@@ -1,13 +1,5 @@
-<style>
-  @media (max-width: 600px) {
-    body {
-      font-size: 14px;
-      line-height: 1.5;
-    }
-  }
-</style>
-
 **2024.01.09**
+
 ## 사줄리뷰<br>(Four Lines Review)</br>
 ---
 ## Fact<br>(오늘 무엇을 하였나요?)</br>
