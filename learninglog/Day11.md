@@ -28,7 +28,7 @@
 ## Lesson Learned<br>(뭐를 배웠을까요?)</br>
 - 데이터를 동적으로 시각화 할 수 있는 라이브러리 사용법을 배우고 웹 어플리케이션으로 배포할 수 있는 프레임워크를 배웠습니다.
 - 우선 **Streamlit** 을 사용해서 간단한 페이지를 만들어보았습니다.
-[영화 포스터 검색](https://fisa-app-vjprsp6owz4zqxmrdf7ens.streamlit.app/)
+[영화 포스터 검색](https://fisaapp-qrubcvipapielgpsf5kmor.streamlit.app/)
 
 ## Declaration<br>(알게된 걸로 뭐를 하고 싶은가요?)</br>
 
